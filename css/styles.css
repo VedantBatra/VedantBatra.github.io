@@ -1,0 +1,190 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* HEADINGS  */
+
+.big-heading {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CONTAINER SECTION */
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation - Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* TITLE SECTION */
+
+#title {
+  text-align: left;
+}
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feauture-icons-ved {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feauture-icons-ved:hover {
+  color: #ff4c68;
+}
+
+.featureved {
+  padding: 5%;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+
+}
+
+/* PRESS SECTION */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.logo-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION  */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column-ved {
+  padding: 3% 2%;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+  background-color: #fff;
+}
+
+.footer-paragraph {
+  padding: 15px 0;
+}
+
+.footer-logos {
+  padding: 0 10px;
+}
+
+
+/* MEDIA QUERY BREAKPOINTS */
+@media (max-width : 1028px) {
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .big-heading {
+    text-align: center;
+  }
+}
